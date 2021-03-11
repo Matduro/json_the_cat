@@ -1,14 +1,4 @@
-const request = require('request'); // pull push info from the web
-
-
-
-// pull this: https://api.thecatapi.com/v1/breeds/search
-
-
-// const data = JSON.parse(body);
-// console.log(data);
-// console.log(typeof data);
-
+const request = require('request');
 
 const fetchBreedDescription = function(breedName, callback) {
 
